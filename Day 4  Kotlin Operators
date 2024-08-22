@@ -1,0 +1,91 @@
+/// OPERATER
+
+/*
+fun main()
+{
+    val a = 10
+    val b = 5
+    val istrue = true
+    val isfalse = false
+    
+    
+    // Arithmetic operaters
+    
+    println("sum of $a + $b = ${a+b}")
+    println("subtract of $a - $b = ${a-b}")
+    println("multiple of $a * $b = ${a*b}")
+    println("division of $a / $b = ${a/b}")
+    println("Modulus of $a % $b = ${a%b}")
+    
+    
+    // relational operater
+    
+    println("sum of $a > $b = ${a>b}")
+    println("sum of $a < $b = ${a<b}")
+    println("sum of $a >= $b = ${a>=b}")
+    println("sum of $a <= $b = ${a<=b}")
+    println("sum of $a == $b = ${a==b}")
+    println("sum of $a != $b = ${a!=b}") 
+    
+    
+    // Assignment Operator
+  
+    println("sum of $a += $b = ${+a + +b}")
+    println("sum of $a -= $b = ${+a - +b}")
+    println("sum of $a *= $b = ${+a * +b}")
+    println("sum of $a /= $b = ${+a / +b}")
+    println("sum of $a %= $b = ${+a % +b}")
+    
+    
+    // Unary operator
+    
+    println("sum of +a = ${+ +a}")
+    println("sum of -b = ${+ -b}")
+    var c = 10
+    println("Unary Increment: ${++c}") 
+    println("c after increment: $c")
+    var d = 5
+    println("Unary Decrement: ${--d}")
+    println("d after decrement: $d")
+
+
+    
+}	    */
+
+
+   // Logical Operator
+
+fun main()
+{  
+    var a=10  
+    var b=5  
+    var c=15  
+    var flag = false  
+    var result: Boolean  
+    result = (a>b) && (a>c)  
+    println("(a>b) && (a>c) :"+ result)  
+    result = (a>b) || (a>c)  
+    println("(a>b) || (a>c) :"+ result)  
+    result = !flag  
+    println("!flag :"+ result)  
+  
+}  
+
+
+  // Bitwise Operator
+
+
+fun main()
+{  
+    var a=10  
+    var b=2  
+  
+    println("a.shl(b): "+a.shl(b))  
+    println("a.shr(b): "+a.shr(b))  
+    println("a.ushr(b:) "+a.ushr(b))  
+    println("a.and(b): "+a.and(b))  
+    println("a.or(b): "+a.or(b))  
+    println("a.xor(b): "+a.xor(b))  
+    println("a.inv(): "+a.inv())  
+  
+}  
