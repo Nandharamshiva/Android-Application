@@ -1,0 +1,16 @@
+////////////////////////////////////// if- else  function   ////////////////////////////////////////////
+
+
+fun main()
+{
+    val temperature = 25
+    if(temperature > 30){
+        println("its a warm day")
+    }
+    else{
+        println("not a warm day")
+    }
+}
+
+
+
