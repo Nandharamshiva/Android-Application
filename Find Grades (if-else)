@@ -1,0 +1,20 @@
+//////////    finding grades using if-else condition  /////////
+
+
+
+fun main()
+{
+    val marks=95
+    if(marks>=90){
+        println("A grade")
+    }
+    else if(marks>=85 && marks<90){
+        println("B grade")
+    }
+    else if(marks>=70 && marks<85){
+        println("C grade")
+    }
+    else{
+        println("D grade")
+    }
+}
