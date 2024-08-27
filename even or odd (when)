@@ -1,0 +1,12 @@
+//////////////  EVEN OR ODD USING "WHEN " FUNCTION ////////////
+
+
+
+fun main()
+{
+    val number = 8
+    when{
+        number % 2 == 0 -> println("$number is Even")
+        number % 2 != 0 -> println("$number is Odd")
+    }
+}
