@@ -1,0 +1,31 @@
+///////     decrement of integers using while loop       ///////// 
+
+
+fun main() {
+    var i = 5
+    while (i > 0) {
+        println("value is :$i")
+        i--
+    }
+}
+
+
+///////       increment and decrement of do-while Loop       ///////////
+
+//do while
+
+
+fun main()
+{
+    var j=5
+do{
+    println("$j")
+    j--
+}while(j>0)
+var k=1
+do{
+    println(k)
+    k++
+}while(k<=5)
+
+}
