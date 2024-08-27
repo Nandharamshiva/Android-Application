@@ -1,0 +1,26 @@
+/////////////////     Calculater using if-else condition    ///////////
+
+
+
+fun main()
+{
+    val a=4
+    val b=2
+    val input="*"
+    if(input=="+"){
+        println("${a+b}")
+    }
+    else if(input=="-"){
+        println("${a-b}")
+    }
+    else if(input=="*"){
+        println("${a*b}")
+    }
+    else if(input=="/"){
+        if(b!=0){
+            println("${a/b}")}
+        else{
+            println("divided by zero is not possible")
+        }
+    }
+}
