@@ -1,0 +1,81 @@
+/////////    Basic for loop condition  ////////////////
+
+fun main()
+{
+   for (i in 1..5)
+   {
+       println("Number: $i")
+   }
+}
+
+
+////////    creating integers using for loop    //////////
+
+
+fun main()
+{
+    for (i in 1 until 5){
+        println(i)                          //output:1 2 3 4
+    }
+}
+
+////////    calling elements in the array    //////////
+
+
+fun main()
+{
+    val num= arrayOf(1,2,3,4,5)
+    for (i in num){
+        println(i)
+    }
+}
+ 
+/////////   Reversing the integers     /////////
+
+
+fun main() 
+{
+    for (i in 5 downTo 1) {
+        println(i)
+    }
+}
+                                                     output :  5 4 3 2 1 
+
+//////////   step wise iteration    ///////////
+
+
+fun main()
+{
+for(i in 1..10 step 2){
+    println(i)
+}
+}
+                                                  output : 1 3 5 7 9 
+
+
+/////////    sum of elements upto a particular range  //////////////
+
+fun main() {
+    var sum = 0
+    for (i in 1..10) {
+        sum = sum + i;
+    }
+    println(sum)
+}
+                                                   output :55
+
+
+///////////     iterating the elements inside list   //////////
+
+fun main() {
+
+
+    var fruits = listOf("apple", "grapes", "mango", "banana")
+    for (i in fruits.indices step 2) {
+        println(fruits[i])
+    }
+    for (i in fruits) {
+        println(i)
+    }
+}
+
