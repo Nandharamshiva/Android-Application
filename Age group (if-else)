@@ -1,0 +1,15 @@
+/////////////    Age group  //////////
+fun main() {
+
+
+    val age1 = 70
+    if (age1 < 13) {
+        println("child")
+    } else if (age1 in 13..19) {
+        println("teenager")
+    } else if (age1 in 20..64) {
+        println("adult")
+    } else {
+        println("senior")
+    }
+}
