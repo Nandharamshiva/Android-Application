@@ -1,0 +1,19 @@
+// class in kotlin
+//  a class is a blueprint for creating objects
+//  Kotlin classes are declared using keywoord class
+// Kotlin class has a class header which sppecifies its type parameters,constructer etc.
+
+
+
+class Student
+{
+    fun result()
+    {
+        println("Pending")
+    }
+}
+fun main()
+{
+    var s1 = Student()
+    s1.result()
+}
